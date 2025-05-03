@@ -36,7 +36,7 @@ A folder named `Images` contains all essential visualizations related to user be
 ## ▶️ How to Run the Project
 
 # Step 1: Clone the repository
-git clone https://github.com/utkarshere/App-Usage-analysis--prediction-and-strategic-recommendations.git
+git clone https://github.com/utkarshere/ML-Driven-App-Usage-and-Churn-Analytics.git
 cd App-Usage-analysis--prediction-and-strategic-recommendations
 
 # Step 2: Install the dependencies
