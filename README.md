@@ -1,26 +1,51 @@
-# **📱 App Usage Analysis Through Machine Learning**
+# 📱 App Usage Analysis Through Machine Learning
 
-A project involving the analysis of user interaction time with a mobile application and identifying quitting reasons through advanced analytics. The goal is to derive insights and recommend pricing and retention strategies to enhance engagement and revenue.
+This project analyzes user interaction time with a mobile application and identifies quitting reasons through advanced analytics. The goal is to derive insights and recommend **pricing** and **retention strategies** to enhance user engagement and revenue.
 
-## Problem Statement and approach
+---
 
-This project analyzes a dataset of  **10,000 customer records** , focusing on user engagement with a mobile application. Key features include:
+## 🧠 Problem Statement and Approach
 
-* Number of days the app was used
-* Total minutes spent on the app
-* Reasons for user churn (four categories)
-* Pricing tiers offered to customers
+We analyzed a dataset of **10,000 customer records** with the following key features:
+- Number of days the app was used
+- Total minutes spent on the app
+- Churn reasons (categorized into four types)
+- Pricing tiers offered to customers
 
-To extract insights and drive strategy:
+To derive actionable insights:
+- **Classification models** (Random Forest Classifier, Logistic Regression) were trained, achieving approximately **67% accuracy**.
+- **K-Means Clustering** segmented users based on usage and behavioral patterns.
+- **Visualizations** highlighted usage trends, churn drivers, and pricing sensitivity.
 
-* **Classification models** like **Random Forest Classifier** and **Logistic Regression** were trained, achieving an accuracy of approximately **67%.**
-* **K-Means Clustering** was used to segment users based on usage traits and behavioral patterns.
-* **Visualizations** were created to showcase usage trends, churn factors, and pricing sensitivity.
+---
 
+## 🔄 Update: Dynamic Pricing Prediction
 
+An additional module predicts the **highest price** a customer is likely to accept at two predefined probability thresholds.
 
-## 🔄 Update
+- If the model doesn’t meet the confidence level for any price tier, it defaults to recommending either the **original** or the **minimum offered price**.
 
-An additional analysis has been added that builds a classification model to **predict the highest price a customer is likely to accept** at two predefined probability thresholds.
+---
 
-If no acceptable price is identified based on the model’s confidence, the system defaults to recommending either the **original** or the  **minimum offered price** .
+## 📊 Key Visualizations
+
+A folder named `Images` contains all essential visualizations related to user behavior, churn analysis, and pricing impact.
+
+---
+
+## ▶️ How to Run the Project
+
+# Step 1: Clone the repository
+git clone https://github.com/utkarshere/App-Usage-analysis--prediction-and-strategic-recommendations.git
+cd App-Usage-analysis--prediction-and-strategic-recommendations
+
+# Step 2: Install the dependencies
+pip install -r requirements.txt
+
+# Step 3: Run the project
+# Option 1: If you're using a Jupyter Notebook
+jupyter notebook app_usage_analysis.ipynb
+
+# Option 2: If you're running a Python script
+python main.py
+
