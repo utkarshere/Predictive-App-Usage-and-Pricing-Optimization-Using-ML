@@ -35,17 +35,17 @@ A folder named `Images` contains all essential visualizations related to user be
 
 ## ▶️ How to Run the Project
 
-# Step 1: Clone the repository
+## Step 1: Clone the repository
 git clone https://github.com/utkarshere/ML-Driven-App-Usage-and-Churn-Analytics.git
 cd App-Usage-analysis--prediction-and-strategic-recommendations
 
-# Step 2: Install the dependencies
+## Step 2: Install the dependencies
 pip install -r requirements.txt
 
-# Step 3: Run the project
-# Option 1: If you're using a Jupyter Notebook
+## Step 3: Run the project
+### Option 1: If you're using a Jupyter Notebook
 jupyter notebook app_usage_analysis.ipynb
 
-# Option 2: If you're running a Python script
+### Option 2: If you're running a Python script
 python main.py
 
