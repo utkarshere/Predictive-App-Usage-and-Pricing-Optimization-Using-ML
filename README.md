@@ -18,6 +18,17 @@ To derive actionable insights:
 - **Visualizations** highlighted usage trends, churn drivers, and pricing sensitivity.
 
 ---
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Key Insights](#key-insights)
+- [Modeling Approach](#modeling-approach)
+- [Visualizations](#visualizations)
+- [How to Run](#how-to-run)
+- [Installation](#installation)
+- [Results](#results)
+- [Future Improvements](#future-improvements)
+
 
 ## 🔄 Update: Dynamic Pricing Prediction
 
