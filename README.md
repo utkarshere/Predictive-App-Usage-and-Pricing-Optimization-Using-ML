@@ -54,14 +54,13 @@ The dataset includes anonymous app engagement metrics for 10,000 customers with 
 - ![Field Distributions](Images/distributions.png)
 - ![Field Boxplots](Images/boxplots.png)
 - ![Optimal K clusters](Images/Elbow_analysis_K_means_clustering.png)
-- ![Potential Revenue Optimization Visuals](Images/potential_oricing_optimization.png)
-- **Images** file contains additional visualizations.
+- ![Potential Revenue Optimization Visuals](Images/potential_pricing_optimization.png)
 
 ## How to Run
 
 ### Step 1: Clone the repository
 
-- git clone https://github.com/utkarshere/ML-Driven-App-Usage-and-Churn-Analytics.git
+- git clone https://github.com/utkarshere/Predictive-App-Usage-and-Pricing-Optimization-Using-ML.git
 - cd App-Usage-analysis--prediction-and-strategic-recommendations
 
 ### Step 2: Create a virtual environment
